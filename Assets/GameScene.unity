@@ -2099,7 +2099,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1004979446197526, guid: a21b3ef1554204421a661c27bf64f07e, type: 2}
       propertyPath: m_TagString
-      value: LeftFripperTag
+      value: LargeCloudTag
       objectReference: {fileID: 0}
     - target: {fileID: 114530020133277218, guid: a21b3ef1554204421a661c27bf64f07e,
         type: 2}
