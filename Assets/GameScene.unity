@@ -755,6 +755,7 @@ GameObject:
   - component: {fileID: 554272045}
   - component: {fileID: 554272049}
   - component: {fileID: 554272050}
+  - component: {fileID: 554272051}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -854,6 +855,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 995b51b13039d4e6fa9907d4c6648fc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &554272051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 554272044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd237e9a67dce475f818cfb638826548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1114294597}
 --- !u!1001 &576022908
 Prefab:
   m_ObjectHideFlags: 0
@@ -1241,7 +1254,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Score 0pt
+  m_Text: 
 --- !u!222 &1114294598
 CanvasRenderer:
   m_ObjectHideFlags: 0
