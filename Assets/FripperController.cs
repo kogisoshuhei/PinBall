@@ -50,9 +50,21 @@ public class FripperController : MonoBehaviour {
 
 			} else if ( touch.phase == TouchPhase.Ended ) {
 
-				if (tag == "RightFripperTag" || tag == "LeftFripperTag") {
+//				if (tag == "RightFripperTag" || tag == "LeftFripperTag") {
+//
+//					// 右フリッパーを下げる
+//					SetAngle (this.defaultAngle);
+//
+//				}
 
-					// 右フリッパーを下げる
+				if (pos.x > Screen.width * 0.5 && tag == "RightFripperTag") {
+
+					// 右フリッパーをあげる
+					SetAngle (this.defaultAngle);
+
+				} else if (pos.x < Screen.width * 0.5 && tag == "LeftFripperTag") {
+
+					// 左フリッパーをあげる
 					SetAngle (this.defaultAngle);
 
 				}
